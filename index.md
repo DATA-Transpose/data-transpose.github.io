@@ -144,12 +144,17 @@ title: Home
     const show = (index, smooth = true) => {
       current = Math.max(0, Math.min(index, items.length - 1));
       const item = items[current];
-      const top = item.offsetTop - (carousel.clientHeight - item.offsetHeight) / 2;
-      carousel.scrollTo({
-        top,
-        behavior: smooth && !reduceMotion.matches ? "smooth" : "auto",
-      });
       updatePosition();
+      carousel.closest(".news-drum").style.setProperty("--news-active-height", `${item.offsetHeight}px`);
+      window.requestAnimationFrame(() => {
+        const viewport = carousel.getBoundingClientRect();
+        const box = item.getBoundingClientRect();
+        const offset = box.top + box.height / 2 - (viewport.top + viewport.height / 2);
+        carousel.scrollBy({
+          top: offset,
+          behavior: smooth && !reduceMotion.matches ? "smooth" : "auto",
+        });
+      });
     };
 
     const stopTimer = () => window.clearInterval(timer);
