@@ -424,6 +424,13 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   background: var(--surface-2);
 }
 
+.person-fengxu-yang .person-photo {
+  object-fit: contain;
+  object-position: center;
+  padding: 1.25rem;
+  background: var(--surface-2);
+}
+
 .location-card {
   margin-top: 1.25rem;
   padding: clamp(1.25rem, 3vw, 2rem);
