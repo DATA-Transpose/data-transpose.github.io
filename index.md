@@ -77,6 +77,7 @@ title: Home
           <div class="news-icon" aria-hidden="true"></div>
           <p class="news-date">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: "%B %-d, %Y" }}{% endif %}</p>
           <h2>{{ item.title }}</h2>
+          {% if item.logo %}<img class="news-conference-logo" src="{{ item.logo | relative_url }}" alt="{{ item.logo_alt }} conference logo" loading="lazy">{% endif %}
           <p>{{ item.description }}</p>
           {% if item.link %}<a href="{{ item.link }}">Learn more</a>{% endif %}
         </article>

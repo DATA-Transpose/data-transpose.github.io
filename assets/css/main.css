@@ -750,6 +750,17 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 
 .news-picker .news-item:not(.is-active) a { pointer-events: none; }
 
+.news-conference-logo {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  align-self: start;
+  width: min(100%, 9.5rem);
+  max-height: 4.75rem;
+  margin-top: .35rem;
+  object-fit: contain;
+  object-position: left top;
+}
+
 .news-position {
   margin: .8rem 0 0;
   color: var(--muted);
@@ -867,6 +878,7 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   .hero-visual svg { min-height: 190px; max-height: 280px; }
   .publication, .news-item { grid-template-columns: 1fr; gap: .65rem; }
   .publication h2, .news-item h2, .publication > p, .news-item > p, .publication .link-list, .news-item > a, .publication .meta:first-of-type, .news-item .news-date { grid-column: 1; grid-row: auto; }
+  .news-conference-logo { grid-column: 1; grid-row: auto; width: min(12rem, 60%); max-height: 4.5rem; margin-block: .15rem .35rem; }
   .publication-icon { position: static; margin-bottom: .25rem; }
   .publication .meta:first-of-type { padding-left: 0; }
 }

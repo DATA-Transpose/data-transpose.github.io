@@ -9,24 +9,32 @@
   title: "Paper accepted by ACM Multimedia 2026"
   description: "A paper from the group has been accepted by ACM Multimedia 2026. Congratulations to Zechao Sun."
   link: "https://weiezhang.github.io/"
+  logo: "/assets/images/conferences/acm-mm-2026.png"
+  logo_alt: "ACM Multimedia 2026"
 
 - date: 2026-05-02
   display_date: "May 2026"
   title: "Paper accepted by ICML 2026"
   description: "A paper supported by the ARC Discovery Project has been accepted by ICML 2026. Congratulations to Liangwei Nathan Zheng."
   link: "https://weiezhang.github.io/"
+  logo: "/assets/images/conferences/icml.svg"
+  logo_alt: "ICML"
 
 - date: 2026-05-01
   display_date: "May 2026"
   title: "Survey paper accepted by IJCAI 2026"
   description: "A paper supported by the ARC Discovery Project has been accepted by the IJCAI 2026 Survey Track. Congratulations to Liangwei Nathan Zheng."
   link: "https://weiezhang.github.io/"
+  logo: "/assets/images/conferences/ijcai-ecai-2026.png"
+  logo_alt: "IJCAI-ECAI 2026"
 
 - date: 2026-04-01
   display_date: "April 2026"
   title: "Paper accepted by IJCAI 2026 AI and Health Track"
   description: "A paper has been accepted by the IJCAI 2026 Special Track on AI and Health. Congratulations to Lishan Yang."
   link: "https://weiezhang.github.io/"
+  logo: "/assets/images/conferences/ijcai-ecai-2026.png"
+  logo_alt: "IJCAI-ECAI 2026"
 
 - date: 2026-01-02
   display_date: "2026"
