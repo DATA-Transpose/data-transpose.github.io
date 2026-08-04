@@ -418,17 +418,15 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 }
 
 .person-nam-kha-nguyen .person-photo {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  padding: 1.25rem;
   background: var(--surface-2);
 }
 
 .person-fengxu-yang .person-photo {
   object-fit: contain;
   object-position: center;
-  padding: 1.25rem;
-  background: var(--surface-2);
+  background: #fff;
 }
 
 .location-card {
