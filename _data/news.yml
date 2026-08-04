@@ -1,0 +1,66 @@
+- date: 2026-07-02
+  display_date: "July 2026"
+  title: "Second Evaluation for Multimodal Generation Workshop at SIGIR 2026"
+  description: "A/Prof. Wei Emma Zhang welcomes researchers to the Second Workshop on Evaluation for Multimodal Generation at SIGIR 2026."
+  link: "https://evalmg.github.io/"
+
+- date: 2026-07-01
+  display_date: "July 2026"
+  title: "Paper accepted by ACM Multimedia 2026"
+  description: "A paper from the group has been accepted by ACM Multimedia 2026. Congratulations to Zechao Sun."
+  link: "https://weiezhang.github.io/"
+
+- date: 2026-05-02
+  display_date: "May 2026"
+  title: "Paper accepted by ICML 2026"
+  description: "A paper supported by the ARC Discovery Project has been accepted by ICML 2026. Congratulations to Liangwei Nathan Zheng."
+  link: "https://weiezhang.github.io/"
+
+- date: 2026-05-01
+  display_date: "May 2026"
+  title: "Survey paper accepted by IJCAI 2026"
+  description: "A paper supported by the ARC Discovery Project has been accepted by the IJCAI 2026 Survey Track. Congratulations to Liangwei Nathan Zheng."
+  link: "https://weiezhang.github.io/"
+
+- date: 2026-04-01
+  display_date: "April 2026"
+  title: "Paper accepted by IJCAI 2026 AI and Health Track"
+  description: "A paper has been accepted by the IJCAI 2026 Special Track on AI and Health. Congratulations to Lishan Yang."
+  link: "https://weiezhang.github.io/"
+
+- date: 2026-01-02
+  display_date: "2026"
+  title: "SafeBuild AI receives Australia’s Economic Accelerator support"
+  description: "Dr. Tony Weitong Chen secured support for SafeBuild AI: Intelligent Safety and Efficiency for Construction SMEs, a 2026–2029 project backed by Australia’s Economic Accelerator."
+  link: "https://researchers.adelaide.edu.au/profile/weitong.chen"
+
+- date: 2026-01-01
+  display_date: "2026"
+  title: "Global partnership grant for trustworthy clinical decision support"
+  description: "Dr. Tony Weitong Chen received a 2026 Global Partnership Joint Fund award for multimodal clinical evidence fusion and trustworthy diagnostic decision support, in collaboration with Shandong University."
+  link: "https://researchers.adelaide.edu.au/profile/weitong.chen"
+
+- date: 2025-11-01
+  title: "Five papers presented at CIKM 2025, Seoul"
+  description: "The group presented five papers spanning passage retrieval, clustered federated multimodal learning, adaptive spline networks, calibration for Kolmogorov-Arnold Networks, and calibration for medical segmentation models."
+
+- date: 2025-09-01
+  title: "CIKM 2025 Travel Award"
+  description: "Wenhao Liang received a CIKM 2025 Travel Award from the organizing committee to support participation and presentation in Seoul, Korea."
+
+- date: 2025-01-02
+  display_date: "2025–2028"
+  title: "ARC Linkage funding for data-driven mushroom cultivation"
+  description: "A/Prof. Wei Emma Zhang leads the AUD $338,649 ARC Linkage Project “Advanced Data Analytics for Cost-effective Mushroom Cultivation,” with Dr. Tony Weitong Chen and university and industry collaborators."
+  link: "https://researchers.adelaide.edu.au/profile/wei.e.zhang"
+
+- date: 2024-08-01
+  title: "FinSen dataset released"
+  description: "The FinSen financial news and sentiment dataset, spanning 197 countries, was released on GitHub."
+  link: "https://github.com/EagleAdelaide/FinSen_Dataset"
+
+- date: 2024-01-02
+  display_date: "2024–2027"
+  title: "ARC Discovery funding for knowledge discovery from imperfect data"
+  description: "A/Prof. Wei Emma Zhang leads the AUD $292,330 ARC Discovery Project “Towards Knowledge Discovery from Imperfect and Evolving Data,” with Dr. Tony Weitong Chen and research collaborators."
+  link: "https://researchers.adelaide.edu.au/profile/wei.e.zhang"

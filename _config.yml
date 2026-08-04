@@ -1,0 +1,35 @@
+title: Data Transpose Lab
+description: AI, big data, and cloud-computing research at Adelaide University
+url: ""
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - placeholders.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - pnpm-lock.yaml
+  - node_modules
+  - public/
+  - app
+  - next.config.mjs
+  - open-next.config.ts
+  - wrangler.jsonc
+  - worker-entry.js
+  - vendor
+  - scripts
+  - tests
+  - DT_Lab_Website_Form_Completion_Guide.docx
+  - DT_Lab_Website_Form_Completion_Guide.md
+  - DT_Lab_Website_Information_Collection_Form.xlsx
+  - DT_Lab_Website_Information_Collection_Form.before_prefill.xlsx
+  - DT_Lab_网站信息收集表.xlsx

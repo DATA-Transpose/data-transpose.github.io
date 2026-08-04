@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% if page.url == '/' %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script defer src="{{ '/assets/js/visitor-map.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    {% endif %}
+    {% seo %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
+          <span class="brand-mark" aria-hidden="true">DT</span>
+          <span>{{ site.title }}</span>
+        </a>
+        <div class="nav-links">
+          <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/people/' | relative_url }}"{% if page.url == '/people/' %} aria-current="page"{% endif %}>People</a>
+          <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+          <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container" id="main-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p><strong>{{ site.title }}</strong><br>{{ site.description }}</p>
+        <p>&copy; {{ 'now' | date: '%Y' }} · Hosted on GitHub Pages</p>
+      </div>
+    </footer>
+  </body>
+</html>

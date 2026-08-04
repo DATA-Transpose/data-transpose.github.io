@@ -1,0 +1,78 @@
+section,field,current_value,replacement_value,source_file,notes
+site,official_lab_name,Data Transpose Lab,,_config.yml,Confirm preferred public name: Data Transpose Lab / DT Lab / another name
+site,site_description,"AI, big data, and cloud-computing research at Adelaide University",,_config.yml,Confirm university naming: Adelaide University vs The University of Adelaide
+site,site_url,,, _config.yml,Fill after repository or domain is chosen
+contact,official_lab_email,Missing,,contact.md,Faculty emails are listed; no separate lab address was found
+contact,official_lab_homepage,Missing,,contact.md,Not found on source page
+contact,full_postal_address,"The University of Adelaide, North Terrace, Adelaide, South Australia",,contact.md,Confirm exact campus school and room if needed
+contact,school_or_faculty,"School of Computer Science and Information Technology",,"contact.md; about.md",Verified from both official Adelaide University profiles
+people,faculty_1_name,Dr. Tony Weitong Chen,,_data/people.yml,Main lab leader; confirm preferred public title spelling
+people,faculty_1_role,Lab Director and Principal Leader,,_data/people.yml,Main lab leader; confirm preferred public role wording
+people,faculty_1_interests,"Foundation model alignment, next-generation neural architectures, trustworthy machine learning, multimodal health data analytics, and machine unlearning",,_data/people.yml,Verified from official Adelaide University profile
+people,faculty_1_email,weitong.chen@adelaide.edu.au,,_data/people.yml,Official Adelaide University profile
+people,faculty_1_homepage,https://researchers.adelaide.edu.au/profile/weitong.chen,,_data/people.yml,Official Adelaide University profile
+people,faculty_2_name,A/Prof. Wei Emma Zhang,,_data/people.yml,Confirm preferred public title spelling
+people,faculty_2_role,Lab Leader,,_data/people.yml,Confirmed by maintainer
+people,faculty_2_interests,"Natural language processing, text mining, information retrieval, multimodal generation and evaluation, federated learning in NLP, and Artificial Intelligence of Things",,_data/people.yml,Verified from official Adelaide University profile
+people,faculty_2_email,wei.e.zhang@adelaide.edu.au,,_data/people.yml,Official Adelaide University profile
+people,faculty_2_homepage,https://researchers.adelaide.edu.au/profile/wei.e.zhang,,_data/people.yml,Official Adelaide University profile
+people,phd_1_name,Wenhao Liang,,_data/people.yml,Source page owner
+people,phd_1_role,PhD Candidate,,_data/people.yml,Confirm current status
+people,phd_1_interests,"Trust, safety, security, privacy, uncertainty estimation, model calibration, model optimization",,_data/people.yml,Confirm scope
+people,phd_1_email,,, _data/people.yml,Add official email if public
+people,phd_1_homepage,http://eaglewhliang.github.io/,,_data/people.yml,Public member page
+people,phd_1_github,https://github.com/EagleAdelaide,,_data/people.yml,Public GitHub account
+people,phd_1_scholar,https://scholar.google.com/citations?user=3f4N-oQAAAAJ&hl=en,,_data/people.yml,Public Google Scholar profile
+people,additional_member_1,,,,_data/people.yml,Add group name role interests email homepage and profile links
+people,additional_member_2,,,,_data/people.yml,Add group name role interests email homepage and profile links
+people,additional_member_3,,,,_data/people.yml,Add group name role interests email homepage and profile links
+publication,publication_1_title,Calibrating on Kolmogorov-Arnold Networks,,_data/publications.yml,Confirm bibliographic details
+publication,publication_1_authors,"Wenhao Liang, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen",,_data/publications.yml,Confirm author order and names
+publication,publication_1_venue,"CIKM 2025, Seoul",,_data/publications.yml,Confirm venue wording
+publication,publication_1_year,2025,,_data/publications.yml,Publication year
+publication,publication_1_arxiv,https://arxiv.org/abs/2503.01195,,_data/publications.yml,Public arXiv link
+publication,publication_1_pdf,,, _data/publications.yml,Add direct PDF URL if desired
+publication,publication_1_doi,,, _data/publications.yml,Add DOI URL if available
+publication,publication_1_code,,, _data/publications.yml,Add code URL if available
+publication,publication_2_title,"We Care Each Pixel: Calibrating on Medical Segmentation Models through Signed Distance",,_data/publications.yml,Confirm bibliographic details
+publication,publication_2_authors,"Wenhao Liang, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen",,_data/publications.yml,Confirm author order and names
+publication,publication_2_venue,"CIKM 2025, Seoul",,_data/publications.yml,Confirm venue wording
+publication,publication_2_year,2025,,_data/publications.yml,Publication year
+publication,publication_2_arxiv,https://arxiv.org/abs/2503.05107,,_data/publications.yml,Public arXiv link
+publication,publication_2_pdf,,, _data/publications.yml,Add direct PDF URL if desired
+publication,publication_2_doi,,, _data/publications.yml,Add DOI URL if available
+publication,publication_2_code,,, _data/publications.yml,Add code URL if available
+publication,publication_3_title,TraffiX-MoE: A Traffic-Aware Neural VRP Solver,,_data/publications.yml,Confirm bibliographic details
+publication,publication_3_authors,"Wenhao Liang, Lin Yue, Wei Emma Zhang, Joy Rathjen, Peter O'Loughlin, Weitong Chen",,_data/publications.yml,Confirm author order and names
+publication,publication_3_venue,"ADMA 2025, Kyoto, Industry Track",,_data/publications.yml,Confirm venue wording
+publication,publication_3_year,2025,,_data/publications.yml,Publication year
+publication,publication_3_link,,, _data/publications.yml,Add paper DOI PDF or project URL
+publication,publication_4_title,Enhancing Financial Market Predictions: Causality-Driven Feature Selection,,_data/publications.yml,Confirm bibliographic details
+publication,publication_4_authors,"Wenhao Liang, Zhengyang Li, Weitong Chen",,_data/publications.yml,Confirm author order and names
+publication,publication_4_venue,ADMA 2024,,_data/publications.yml,Confirm venue wording
+publication,publication_4_year,2024,,_data/publications.yml,Publication year
+publication,publication_4_link,,, _data/publications.yml,Add paper DOI PDF or project URL
+publication,publication_5_title,Correlation Analysis of Adversarial Attack in Time Series Classification,,_data/publications.yml,Confirm bibliographic details
+publication,publication_5_authors,"Zhengyang Li, Wenhao Liang, Chang Dong, Weitong Chen, Dong Huang",,_data/publications.yml,Confirm author order and names
+publication,publication_5_venue,ADMA 2024,,_data/publications.yml,Confirm venue wording
+publication,publication_5_year,2024,,_data/publications.yml,Publication year
+publication,publication_5_link,,, _data/publications.yml,Add paper DOI PDF or project URL
+publication,additional_publication_1,,,,_data/publications.yml,Add title authors venue year and links
+publication,additional_publication_2,,,,_data/publications.yml,Add title authors venue year and links
+research,trustworthy_ai,"Model calibration, uncertainty estimation, fairness, adversarial robustness, privacy, interpretability, and explainability",,"index.md; about.md",Confirm scope
+research,ai_and_data_mining,"NLP, text mining, causal reasoning, multimodal information fusion, and knowledge discovery from imperfect data",,"index.md; about.md",Confirm scope
+research,model_optimization,"Efficient training and inference, hyperparameter and optimization methods, transfer learning, meta-learning, and hardware-aware AI",,"index.md; about.md",Confirm scope
+research,big_data_and_cloud,"Big data, distributed systems, and cloud computing",,"about.md",Add homepage card if this should be front-page emphasis
+news,news_1_date,2025-11-01,,_data/news.yml,Source only gave Nov 2025; day set to 01
+news,news_1_title,"Two papers presented at CIKM 2025, Seoul",,_data/news.yml,Confirm wording
+news,news_1_description,"The group presented work on calibration for Kolmogorov-Arnold Networks and medical segmentation models.",,_data/news.yml,Confirm wording
+news,news_1_link,,, _data/news.yml,Add event or announcement URL if available
+news,news_2_date,2025-09-01,,_data/news.yml,Source only gave Sep 2025; day set to 01
+news,news_2_title,CIKM 2025 Travel Award,,_data/news.yml,Confirm wording
+news,news_2_description,Wenhao Liang received a CIKM 2025 Travel Award from the organizing committee.,,_data/news.yml,Confirm wording
+news,news_2_link,,, _data/news.yml,Add award URL if available
+news,news_3_date,2024-08-01,,_data/news.yml,Source only gave Aug 2024; day set to 01
+news,news_3_title,FinSen dataset released,,_data/news.yml,Confirm wording
+news,news_3_description,"The FinSen financial news and sentiment dataset, spanning 197 countries, was released on GitHub.",,_data/news.yml,Confirm wording
+news,news_3_link,https://github.com/EagleAdelaide/FinSen_Dataset,,_data/news.yml,Public dataset repository
+news,additional_news_1,,,,_data/news.yml,Add date title description and optional link

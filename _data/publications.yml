@@ -1,0 +1,205 @@
+- title: "Rethinking Gating Mechanism in Sparse MoE: Handling Arbitrary Modality Inputs with Confidence-Guided Gate"
+  authors: "Liangwei Nathan Zheng, Wei Emma Zhang, Mingyu Guo, Weitong Chen"
+  venue: "ICML"
+  year: 2026
+  links: {}
+
+- title: "Suppressing Prior-Comparison Hallucinations in Radiology Report Generation via Semantically Decoupled Latent Steering"
+  authors: "Ao Li, Rui Liu, Mingjie Li, Sheng Liu, Lei Wang, Xiaodan Liang, Lina Yao, Xiaojun Chang, Lei Xing"
+  venue: "arXiv preprint"
+  year: 2026
+  summary: "Introduces a training-free latent-steering framework that suppresses unsupported prior-comparison statements in radiology reports while preserving clinical fidelity."
+  links:
+    doi: "https://doi.org/10.48550/arXiv.2602.23676"
+    arxiv: "https://arxiv.org/abs/2602.23676"
+    code: "https://github.com/AoXan/SDLS-Radiology"
+
+- title: "MediBench: A Benchmark for VAEs in Medical Imaging Across Fidelity, Structure, and Latent Utility"
+  authors: "Ao Li, Haowei Lou, Chenglong Ma, Binxu Li, Rui Liu, Lina Yao, Yuanfeng Ji, Mingjie Li"
+  venue: "OpenReview — submitted to ICLR 2026"
+  year: 2026
+  summary: "Benchmarks VAEs and VQ-VAEs for medical imaging across reconstruction fidelity, clinical structure preservation, and latent representation utility."
+  links:
+    paper: "https://openreview.net/pdf?id=sWQe6bKsLW"
+    project: "https://openreview.net/forum?id=sWQe6bKsLW"
+
+- title: "Tackling Multimodal Learning Challenges with Mixture-of-Expert: A Survey"
+  authors: "Liangwei Nathan Zheng, Wei Emma Zhang, Olaf Maennel, Lin Yue, Weitong Chen"
+  venue: "IJCAI"
+  year: 2026
+  links:
+    arxiv: "https://arxiv.org/abs/2605.27431"
+
+- title: "From Data to Insights: Exploring Program-of-Thoughts Prompting for Chart Summarization"
+  authors: "Yutong Qu, Wei Zhang"
+  venue: "arXiv preprint"
+  year: 2026
+  links:
+    arxiv: "https://arxiv.org/abs/2605.28874"
+
+- title: "MLIP-MC: A Framework for Adsorption Simulations using Machine-Learned Interatomic Potentials"
+  authors: "Connor W. Edwards, Fengxu Yang, Konstantin Stracke, Jack D. Evans"
+  venue: "arXiv preprint"
+  year: 2026
+  links:
+    arxiv: "https://arxiv.org/abs/2602.13725"
+
+- title: "QUASAR: A Universal Autonomous System for Atomistic Simulation and a Benchmark of Its Capabilities"
+  authors: "Fengxu Yang, Jack D. Evans"
+  venue: "arXiv preprint"
+  year: 2026
+  links:
+    arxiv: "https://arxiv.org/abs/2602.00185"
+
+- title: "Lifting Manifolds to Mitigate Pseudo-Alignment in LLM4TS"
+  authors: "Liangwei Nathan Zheng, Wenhao Liang, Wei Emma Zhang, Miao Xu, Olaf Maennel, Weitong Chen"
+  venue: "The Web Conference (WWW)"
+  year: 2026
+  links:
+    paper: "https://digital.library.adelaide.edu.au/server/api/core/bitstreams/c0103744-115b-4844-a618-84a2510e227a/content"
+
+- title: "Predicting Gene Expression from Whole Slide Images in Prostate Cancer Using Deep Learning"
+  authors: "Anxuan Han, Bo Li, Chui Yan Mah, Jessica M. Logan, Yanan Wang, Ning Liu, Feargal J. Ryan, David J. Lynn, Darren J. Foreman, John J. O'Leary, Douglas A. Brooks, Jose M. Polo, Lisa M. Butler, Fuyi Li"
+  venue: "Research Square preprint"
+  year: 2026
+  links:
+    doi: "https://doi.org/10.21203/rs.3.rs-8770716/v1"
+
+- title: "FediLoRA: Heterogeneous LoRA for Federated Multimodal Fine-tuning under Missing Modalities"
+  authors: "Lishan Yang, Nam Kha Nguyen, Po Hu, Wei Emma Zhang, Yanjun Shu, Mong Yuan Sim, Weitong Chen"
+  venue: "arXiv preprint"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2509.06984"
+
+- title: "CLAP: Coreference-Linked Augmentation for Passage Retrieval"
+  authors: "Huanwei Xu, Lin Xu, Liang Yuan"
+  venue: "CIKM"
+  year: 2025
+  links:
+    doi: "https://doi.org/10.1145/3746252.3761113"
+    arxiv: "https://arxiv.org/abs/2508.06941"
+
+- title: "FedDPG: An Adaptive Yet Efficient Prompt-Tuning Approach in Federated Learning Settings"
+  authors: "Ali Shakeri, Wei Emma Zhang, Amin Beheshti, Weitong Chen, Jian Yang, Lishan Yang"
+  venue: "PAKDD"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2507.19534"
+
+- title: "MMiC: Mitigating Modality Incompleteness in Clustered Federated Learning"
+  authors: "Lishan Yang, Wei Emma Zhang, Quan Z. Sheng, Lina Yao, Weitong Chen, Ali Shakeri"
+  venue: "CIKM"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2505.06911"
+
+- title: "TrojanTime: Backdoor Attacks on Time Series Classification"
+  authors: "Chang Dong, Zechao Sun, Guangdong Bai, Shuying Piao, Weitong Chen, Wei Emma Zhang"
+  venue: "arXiv preprint"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2502.00646"
+
+- title: "Adaptive Spline Networks in the Kolmogorov-Arnold Framework: Knot Analysis and Stability Enhancement"
+  authors: "Liangwei Nathan Zheng, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen"
+  venue: "CIKM"
+  year: 2025
+  links: {}
+
+- title: "Calibrating on Kolmogorov-Arnold Network"
+  authors: "Wenhao Liang, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen"
+  venue: "CIKM"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2503.01195"
+
+- title: "Calibrating on Medical Segmentation Model through Signed Distance"
+  authors: "Wenhao Liang, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen"
+  venue: "CIKM"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2503.05107"
+
+- title: "MS Faster-RCNN: A Novel Multi-scale Feature Fusion Based Object Detection Scheme"
+  authors: "Yibo Sun, Chenlei Liu, Bixiao Xu, Jing Gong, Zhe Sun, Weitong Chen"
+  venue: "ADMA"
+  year: 2025
+  links: {}
+
+- title: "Multi-modal Learning Methods in Medical Imaging Area: A Survey"
+  authors: "Yibo Sun, Weitong Chen, Zhe Sun"
+  venue: "Digital Signal Processing"
+  year: 2025
+  links: {}
+
+- title: "A Few-Shot Object Detection Framework via Feature Reweighting for Ground-Penetrating Radar Data"
+  authors: "Ao Li"
+  venue: "Fourth International Conference on Machine Vision, Automatic Identification, and Detection (MVAID 2025)"
+  year: 2025
+  summary: "Introduces and evaluates a feature-reweighting meta-learning framework for few-shot object detection in ground-penetrating radar data, including analysis of class imbalance and adaptation limits."
+  links:
+    doi: "https://doi.org/10.1117/12.3077330"
+
+- title: "Understanding Why Large Language Models Can Be Ineffective in Time Series Analysis: The Impact of Modality Alignment"
+  authors: "Liangwei Nathan Zheng, Chang George Dong, Wei Emma Zhang, Lin Yue, Miao Xu, Olaf Maennel, Weitong Chen"
+  venue: "KDD"
+  year: 2025
+  links:
+    arxiv: "https://arxiv.org/abs/2410.12326"
+
+- title: "Calibrating Deep Neural Network using Euclidean Distance"
+  authors: "Wenhao Liang, Chang Dong, Liangwei Zheng, Zhengyang Li, Wei Zhang, Weitong Chen"
+  venue: "arXiv preprint"
+  year: 2024
+  links:
+    arxiv: "https://arxiv.org/abs/2410.18321"
+
+- title: "Devil in the Tail: A Multi-modal Framework for Drug-Drug Interaction Prediction in Long Tail Distinction"
+  authors: "Liangwei Nathan Zheng, Chang George Dong, Wei Emma Zhang, Xin Chen, Lin Yue, Weitong Chen"
+  venue: "CIKM"
+  year: 2024
+  links: {}
+
+- title: "AWF: Adaptive Weight Fusion for Enhanced Class Incremental Semantic Segmentation"
+  authors: "Zechao Sun, Haolin Jin, Weitong Chen, Luping Zhou"
+  venue: "arXiv preprint"
+  year: 2024
+  links:
+    arxiv: "https://arxiv.org/abs/2409.08516"
+
+- title: "Kolmogorov-Arnold Networks (KAN) for Time Series Classification and Robust Analysis"
+  authors: "Chang Dong, Liangwei Zheng, Weitong Chen"
+  venue: "arXiv preprint"
+  year: 2024
+  links:
+    arxiv: "https://arxiv.org/abs/2408.07314"
+
+- title: "Leveraging Knowledge-aware Methodologies for Multi-document Summarization"
+  authors: "Yutong Qu"
+  venue: "The Web Conference Companion"
+  year: 2024
+  links:
+    doi: "https://doi.org/10.1145/3589335.3651262"
+
+- title: "Data-Product Catalogues: Envisioning with Knowledge-aware Natural Language Processing"
+  authors: "Yutong Qu, Jian Yang, Wei Emma Zhang, Weitong Chen, Hong Qing Yu"
+  venue: "IEEE International Conference on Web Services (ICWS)"
+  year: 2024
+  links: {}
+
+- title: "CSIRO Data61 Team at BioLaySumm Task 1: Lay Summarisation of Biomedical Research Articles Using Generative Models"
+  authors: "Mong Yuan Sim, Xiang Dai, Maciej Rybinski, Sarvnaz Karimi"
+  venue: "BioNLP"
+  year: 2023
+  links:
+    doi: "https://doi.org/10.18653/v1/2023.bionlp-1.68"
+    paper: "https://aclanthology.org/2023.bionlp-1.68/"
+
+- title: "Knowledge-aware Document Summarization: A Survey of Knowledge, Embedding Methods and Architectures"
+  authors: "Yutong Qu, Wei Emma Zhang, Jian Yang, Lingfei Wu, Jia Wu"
+  venue: "Knowledge-Based Systems"
+  year: 2022
+  links:
+    doi: "https://doi.org/10.1016/j.knosys.2022.109882"
+    arxiv: "https://arxiv.org/abs/2204.11190"

@@ -1,0 +1,13 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+node_modules/
+.next/
+.open-next/
+.wrangler/
+dist/
+DT_Lab_Website_Information_Collection_Form.before_prefill.xlsx
+~$*

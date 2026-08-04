@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "data-transpose-lab",
+  "main": "worker-entry.js",
+  "compatibility_date": "2026-08-03",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "VISITOR_COUNTER", "class_name": "VisitorCounter" }
+    ]
+  },
+  "migrations": [
+    { "tag": "visitor-stats-v1", "new_sqlite_classes": ["VisitorCounter"] }
+  ]
+}
