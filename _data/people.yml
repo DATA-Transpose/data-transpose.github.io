@@ -140,7 +140,7 @@ phd_students:
     image: "/assets/images/people/he-zhang.png"
     affiliation: "Adelaide University"
     interests: "Video deepfake detection, temporal coherence, spatial coherence, and computer vision."
-    bio: "His research focuses on detecting AI-generated fake videos by analysing inconsistencies in facial appearance, audio-visual synchronisation, and background content."
+    bio: "Her research focuses on detecting AI-generated fake videos by analysing inconsistencies in facial appearance, audio-visual synchronisation, and background content."
     location: "Adelaide University"
     links:
       profile: "https://researchers.adelaide.edu.au/profile/he.zhang01"
