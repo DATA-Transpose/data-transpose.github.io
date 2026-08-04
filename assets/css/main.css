@@ -418,7 +418,7 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 }
 
 .person-nam-kha-nguyen .person-photo {
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   background: var(--surface-2);
 }
