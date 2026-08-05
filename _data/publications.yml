@@ -287,17 +287,3 @@
   links:
     doi: "https://doi.org/10.1016/j.knosys.2022.109882"
     arxiv: "https://arxiv.org/abs/2204.11190"
-
-- title: "Generating Semantically Similar and Human-Readable Summaries with Generative Adversarial Networks"
-  authors: "Haojie Zhuang, Weibin Zhang"
-  venue: "IEEE Access"
-  year: 2019
-  links:
-    doi: "https://doi.org/10.1109/ACCESS.2019.2955087"
-
-- title: "Data-as-a-Service: A Cloud-Based Federated Platform to Facilitate Discovery of Private Sector Datasets"
-  authors: "Haojie Zhuang, Hing-Yan Lee"
-  venue: "International Conference on Cloud Computing Research and Innovation (ICCCRI)"
-  year: 2015
-  links:
-    doi: "https://doi.org/10.1109/ICCCRI.2015.34"
