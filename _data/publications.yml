@@ -65,6 +65,44 @@
   links:
     doi: "https://doi.org/10.21203/rs.3.rs-8770716/v1"
 
+- title: "Improving Faithfulness and Factuality with Contrastive Learning in Explainable Recommendation"
+  authors: "Haojie Zhuang, Wei Emma Zhang, Weitong Chen, Jian Yang, Quan Z. Sheng"
+  venue: "ACM Transactions on Intelligent Systems and Technology"
+  year: 2025
+  links:
+    doi: "https://doi.org/10.1145/3653984"
+
+- title: "Rethinking Transformer-Based Multi-Document Summarization: An Empirical Investigation"
+  authors: "Congbo Ma, Wei Emma Zhang, Dileepa Pitawela, Haojie Zhuang, Yanfeng Shu, Qing Li, Hu Wang"
+  venue: "ADMA"
+  year: 2025
+  links:
+    doi: "https://doi.org/10.1007/978-981-95-3456-2_1"
+    arxiv: "https://arxiv.org/abs/2407.11948"
+
+- title: "Proceedings of the First Workshop of Evaluation of Multi-Modal Generation"
+  authors: "Wei Emma Zhang, Xiang Dai, Desmond Elliott, Byron Fang, Mong Yuan Sim, Haojie Zhuang, Weitong Chen"
+  venue: "COLING Workshops"
+  year: 2025
+  links:
+    paper: "https://aclanthology.org/2025.evalmg-1.0/"
+
+- title: "Fine-Tuning Encoder-Decoder Models with Contrastive Learning for In-Context Distractor Generation"
+  authors: "Elaf Alhazmi, Quan Z. Sheng, Wei Emma Zhang, Mohammed I. Thanoon, Haojie Zhuang, Behnaz Soltani, Munazza Zaib"
+  venue: "Findings of EMNLP"
+  year: 2025
+  links:
+    doi: "https://doi.org/10.18653/v1/2025.findings-emnlp.533"
+    paper: "https://aclanthology.org/2025.findings-emnlp.533/"
+
+- title: "The More, The Better? A Critical Study of Multimodal Context in Radiology Report Summarization"
+  authors: "Mong Yuan Sim, Wei Emma Zhang, Xiang Dai, Biaoyan Fang, Sarbin Ranjitkar, Arjun Burlakoti, Jamie Taylor, Haojie Zhuang"
+  venue: "Findings of EMNLP"
+  year: 2025
+  links:
+    doi: "https://doi.org/10.18653/v1/2025.findings-emnlp.1040"
+    paper: "https://aclanthology.org/2025.findings-emnlp.1040/"
+
 - title: "FediLoRA: Heterogeneous LoRA for Federated Multimodal Fine-tuning under Missing Modalities"
   authors: "Lishan Yang, Nam Kha Nguyen, Po Hu, Wei Emma Zhang, Yanjun Shu, Mong Yuan Sim, Weitong Chen"
   venue: "arXiv preprint"
@@ -148,6 +186,37 @@
   links:
     arxiv: "https://arxiv.org/abs/2410.12326"
 
+- title: "Not All Negatives are Equally Negative: Soft Contrastive Learning for Unsupervised Sentence Representations"
+  authors: "Haojie Zhuang, Wei Emma Zhang, Jian Yang, Weitong Chen, Quan Z. Sheng"
+  venue: "CIKM"
+  year: 2024
+  links:
+    doi: "https://doi.org/10.1145/3627673.3679745"
+
+- title: "Trainable Hard Negative Examples in Contrastive Learning for Unsupervised Abstractive Summarization"
+  authors: "Haojie Zhuang, Wei Emma Zhang, Chang George Dong, Jian Yang, Quan Z. Sheng"
+  venue: "Findings of EACL"
+  year: 2024
+  links:
+    doi: "https://doi.org/10.18653/v1/2024.findings-eacl.110"
+    paper: "https://aclanthology.org/2024.findings-eacl.110/"
+
+- title: "Disentangling Specificity for Abstractive Multi-Document Summarization"
+  authors: "Congbo Ma, Wei Emma Zhang, Hu Wang, Haojie Zhuang, Mingyu Guo"
+  venue: "IJCNN"
+  year: 2024
+  links:
+    doi: "https://doi.org/10.1109/IJCNN60899.2024.10651001"
+    arxiv: "https://arxiv.org/abs/2406.00005"
+
+- title: "Automatic, Meta and Human Evaluation for Multimodal Summarization with Multimodal Output"
+  authors: "Haojie Zhuang, Wei Emma Zhang, Leon Xie, Weitong Chen, Jian Yang, Quan Z. Sheng"
+  venue: "NAACL-HLT"
+  year: 2024
+  links:
+    doi: "https://doi.org/10.18653/v1/2024.naacl-long.430"
+    paper: "https://aclanthology.org/2024.naacl-long.430/"
+
 - title: "Calibrating Deep Neural Network using Euclidean Distance"
   authors: "Wenhao Liang, Chang Dong, Liangwei Zheng, Zhengyang Li, Wei Zhang, Weitong Chen"
   venue: "arXiv preprint"
@@ -196,6 +265,21 @@
     doi: "https://doi.org/10.18653/v1/2023.bionlp-1.68"
     paper: "https://aclanthology.org/2023.bionlp-1.68/"
 
+- title: "Learning From the Source Document: Unsupervised Abstractive Summarization"
+  authors: "Haojie Zhuang, Wei Emma Zhang, Jian Yang, Congbo Ma, Yutong Qu, Quan Z. Sheng"
+  venue: "Findings of EMNLP"
+  year: 2022
+  links:
+    doi: "https://doi.org/10.18653/v1/2022.findings-emnlp.309"
+    paper: "https://aclanthology.org/2022.findings-emnlp.309/"
+
+- title: "Document-Aware Positional Encoding and Linguistic-Guided Encoding for Abstractive Multi-Document Summarization"
+  authors: "Congbo Ma, Wei Emma Zhang, Dileepa Pitawela, Yutong Qu, Haojie Zhuang, Hu Wang"
+  venue: "arXiv preprint"
+  year: 2022
+  links:
+    arxiv: "https://arxiv.org/abs/2209.05929"
+
 - title: "Knowledge-aware Document Summarization: A Survey of Knowledge, Embedding Methods and Architectures"
   authors: "Yutong Qu, Wei Emma Zhang, Jian Yang, Lingfei Wu, Jia Wu"
   venue: "Knowledge-Based Systems"
@@ -203,3 +287,17 @@
   links:
     doi: "https://doi.org/10.1016/j.knosys.2022.109882"
     arxiv: "https://arxiv.org/abs/2204.11190"
+
+- title: "Generating Semantically Similar and Human-Readable Summaries with Generative Adversarial Networks"
+  authors: "Haojie Zhuang, Weibin Zhang"
+  venue: "IEEE Access"
+  year: 2019
+  links:
+    doi: "https://doi.org/10.1109/ACCESS.2019.2955087"
+
+- title: "Data-as-a-Service: A Cloud-Based Federated Platform to Facilitate Discovery of Private Sector Datasets"
+  authors: "Haojie Zhuang, Hing-Yan Lee"
+  venue: "International Conference on Cloud Computing Research and Innovation (ICCCRI)"
+  year: 2015
+  links:
+    doi: "https://doi.org/10.1109/ICCCRI.2015.34"
