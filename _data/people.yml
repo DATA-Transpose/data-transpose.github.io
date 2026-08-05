@@ -151,7 +151,7 @@ phd_students:
 
   - name: "Jingyu Duan"
     sort_name: "Duan, Jingyu"
-    role: "PhD Candidate"
+    role: "PhD Student"
     affiliation: "Adelaide University"
     interests: "Model predictive control, intelligent robotics, assistive robotics, and learning-based control."
     location: "Adelaide University"
@@ -190,6 +190,7 @@ masters_students:
     location: "Adelaide University"
     links:
       scholar: "https://scholar.google.com/citations?view_op=search_authors&mauthors=Fengxu+Yang+Adelaide"
+      github: "https://github.com/fengxuyy/"
 
   - name: "Nam Kha Nguyen"
     sort_name: "Nguyen, Nam Kha"
@@ -238,6 +239,7 @@ alumni:
   - name: "Lishan Yang"
     sort_name: "Yang, Lishan"
     role: "MPhil Graduate"
+    image: "/assets/images/people/lishan-yang.jpg"
     affiliation: "School of Computer Science and Information Technology; Australian Institute for Machine Learning; Adelaide University"
     interests: "Federated learning, active learning, multimodal learning, privacy, and parameter-efficient fine-tuning."
     location: "Adelaide University"
