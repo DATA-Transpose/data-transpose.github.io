@@ -186,8 +186,8 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   position: relative;
   min-height: min(720px, 76vh);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(230px, .38fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: minmax(0, 1fr) minmax(340px, .58fr);
+  gap: clamp(2rem, 4.5vw, 4rem);
   align-items: center;
   padding: 2rem 0 5rem;
   border-bottom: 1px solid var(--ink);
@@ -198,7 +198,7 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   grid-column: 2;
   grid-row: 1 / span 4;
   width: 100%;
-  max-height: 640px;
+  max-height: 760px;
   aspect-ratio: 904 / 1739;
   margin: 0;
   border: 1px solid var(--line);
