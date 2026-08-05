@@ -194,18 +194,19 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 }
 
 .hero-visual {
-  align-self: stretch;
+  align-self: center;
   grid-column: 2;
   grid-row: 1 / span 4;
+  width: 100%;
+  max-height: 640px;
+  aspect-ratio: 904 / 1739;
   margin: 0;
-  min-height: 310px;
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, .78);
-  box-shadow: inset 0 0 0 12px var(--paper);
   overflow: hidden;
 }
 
-.hero-visual svg { width: 100%; height: 100%; min-height: 310px; display: block; }
+.hero-visual img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .visual-grid { fill: none; stroke: var(--line); stroke-width: 1; }
 .visual-links { fill: none; stroke: var(--accent-dark); stroke-width: 1.5; }
 .visual-nodes { fill: var(--signal); stroke: var(--ink); stroke-width: 2; }
@@ -878,8 +879,7 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   .people-grid-faculty .person-media,
   .people-grid-phd_students .person-media { min-height: 0; aspect-ratio: 1; border-right: 0; border-bottom: 1px solid var(--line); }
   .hero { min-height: 620px; grid-template-columns: 1fr; }
-  .hero .hero-visual { grid-column: 1; grid-row: auto; min-height: 190px; }
-  .hero-visual svg { min-height: 190px; max-height: 280px; }
+  .hero .hero-visual { grid-column: 1; grid-row: auto; width: min(100%, 22rem); max-height: none; justify-self: center; }
   .publication, .news-item { grid-template-columns: 1fr; gap: .65rem; }
   .publication h2, .news-item h2, .publication > p, .news-item > p, .publication .link-list, .news-item > a, .publication .meta:first-of-type, .news-item .news-date { grid-column: 1; grid-row: auto; }
   .news-conference-logo { grid-column: 1; grid-row: auto; width: min(12rem, 60%); max-height: 4.5rem; margin-block: .15rem .35rem; }

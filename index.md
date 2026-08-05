@@ -14,29 +14,8 @@ title: Home
     <a class="button primary" href="{{ '/publications/' | relative_url }}">View publications</a>
     <a class="button" href="{{ '/people/' | relative_url }}">Meet the team</a>
   </div>
-  <figure class="hero-visual" aria-label="Abstract diagram connecting trustworthy AI, data systems, and cloud computing">
-    <svg viewBox="0 0 520 560" role="img" aria-labelledby="hero-diagram-title hero-diagram-desc">
-      <title id="hero-diagram-title">Connected research systems</title>
-      <desc id="hero-diagram-desc">A layered network of nodes representing models, data, and distributed computing.</desc>
-      <g class="visual-grid">
-        <path d="M20 80H500M20 200H500M20 320H500M20 440H500M100 20V540M260 20V540M420 20V540"/>
-      </g>
-      <g class="visual-links">
-        <path d="M100 120L260 74 420 158 350 300 445 432 260 486 82 390 150 270Z"/>
-        <path d="M100 120L150 270 350 300 420 158M150 270L260 486M350 300L82 390"/>
-      </g>
-      <g class="visual-nodes">
-        <circle cx="100" cy="120" r="13"/><circle cx="260" cy="74" r="8"/>
-        <circle cx="420" cy="158" r="15"/><circle cx="150" cy="270" r="10"/>
-        <circle cx="350" cy="300" r="18"/><circle cx="82" cy="390" r="9"/>
-        <circle cx="445" cy="432" r="12"/><circle cx="260" cy="486" r="16"/>
-      </g>
-      <g class="visual-labels">
-        <text x="118" y="115">CALIBRATE</text><text x="372" y="142">LEARN</text>
-        <text x="172" y="264">REASON</text><text x="375" y="294">OPTIMIZE</text>
-        <text x="285" y="508">DISTRIBUTE</text>
-      </g>
-    </svg>
+  <figure class="hero-visual">
+    <img src="{{ '/assets/images/branding/dt_main.png' | relative_url }}" alt="Data Transpose Lab visual connecting large language models and computer vision" width="904" height="1739">
   </figure>
 </section>
 
