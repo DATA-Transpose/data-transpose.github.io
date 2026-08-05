@@ -248,3 +248,13 @@ alumni:
       email: "mailto:lishan.yang@adelaide.edu.au"
       dblp: "https://dblp.org/pid/182/6868-2"
       scholar: "https://scholar.google.com/citations?view_op=search_authors&mauthors=Lishan+Yang+Adelaide"
+
+  - name: "Haojie Zhuang"
+    sort_name: "Zhuang, Haojie"
+    role: "PhD Graduate"
+    affiliation: "Adelaide University"
+    interests: "Multi-document and abstractive summarisation, contrastive learning, sentence representation learning, and explainable recommendation."
+    location: "Adelaide University"
+    bio: "Former PhD student supervised by A/Prof. Wei Emma Zhang."
+    links:
+      researchgate: "https://www.researchgate.net/scientific-contributions/Haojie-Zhuang-2230715022"
