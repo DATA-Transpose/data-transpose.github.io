@@ -18,8 +18,7 @@
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
         <a class="brand" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
-          <span class="brand-mark" aria-hidden="true">DT</span>
-          <span>{{ site.title }}</span>
+          <img class="brand-logo" src="{{ '/assets/images/branding/DT_Lab_geometric_logo_web.svg' | relative_url }}" alt="Data Transpose Lab">
         </a>
         <div class="nav-links">
           <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400" height="460" viewBox="0 0 1400 460"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Data Transpose Lab geometric logo</title>
+  <desc id="desc">A geometric data-grid and network-cloud symbol beside the words Data Transpose Lab.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- faint source-data grid -->
+    <g stroke="#DDE5EA" stroke-width="3">
+      <path d="M42 110H285 M42 180H285 M42 250H285 M42 320H285"/>
+      <path d="M70 78V358 M140 78V358 M210 78V358 M280 78V358"/>
+    </g>
+
+    <!-- 3 x 5 data matrix -->
+    <g>
+      <rect x="58" y="96" width="42" height="42" fill="#071628"/>
+      <rect x="128" y="96" width="42" height="42" fill="#10A8C8"/>
+      <rect x="198" y="96" width="42" height="42" fill="#D8E1E7"/>
+
+      <rect x="58" y="166" width="42" height="42" fill="#D8E1E7"/>
+      <rect x="128" y="166" width="42" height="42" fill="#10A8C8"/>
+      <rect x="198" y="166" width="42" height="42" fill="#D8E1E7"/>
+
+      <rect x="58" y="236" width="42" height="42" fill="#10A8C8"/>
+      <rect x="128" y="236" width="42" height="42" fill="#D8E1E7"/>
+      <rect x="198" y="236" width="42" height="42" fill="#071628"/>
+
+      <rect x="58" y="306" width="42" height="42" fill="#D8E1E7"/>
+      <rect x="128" y="306" width="42" height="42" fill="#10A8C8"/>
+      <rect x="198" y="306" width="42" height="42" fill="#D8E1E7"/>
+    </g>
+
+    <!-- geometric frame -->
+    <path d="M296 56H522V102
+             C558 102 578 122 578 151
+             C606 157 623 180 623 207
+             C623 241 598 266 565 266
+             H548
+             M296 56V82
+             M296 338V382H522V338"
+          stroke="#071628" stroke-width="6"/>
+
+    <!-- network -->
+    <g stroke-width="4">
+      <path d="M338 122L450 215L338 318M450 215L520 122M450 215L520 215M450 215L520 318M338 122H450V215M338 318H450V215M520 122V318M338 122V318"
+            stroke="#10A8C8"/>
+      <path d="M338 215H450M450 122V318"
+            stroke="#D8E1E7"/>
+    </g>
+
+    <!-- nodes -->
+    <g stroke="#071628" stroke-width="4">
+      <circle cx="338" cy="122" r="15" fill="#071628"/>
+      <circle cx="450" cy="122" r="15" fill="#10A8C8"/>
+      <circle cx="520" cy="122" r="15" fill="#A9CFDC" stroke="none"/>
+      <circle cx="338" cy="215" r="15" fill="#D8E1E7" stroke="none"/>
+      <circle cx="520" cy="215" r="15" fill="#10A8C8"/>
+      <circle cx="338" cy="318" r="15" fill="#071628"/>
+      <circle cx="450" cy="318" r="15" fill="#10A8C8"/>
+      <circle cx="520" cy="318" r="15" fill="#071628"/>
+      <rect x="421" y="186" width="58" height="58" fill="#0794B4" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- logotype -->
+  <g fill="#071628" font-family="Georgia, 'Times New Roman', serif" font-weight="700">
+    <text x="675" y="142" font-size="112">Data</text>
+    <text x="675" y="264" font-size="112">Transpose</text>
+    <text x="675" y="386" font-size="112">Lab</text>
+  </g>
+  <rect x="913" y="351" width="27" height="27" fill="#10A8C8"/>
+</svg>

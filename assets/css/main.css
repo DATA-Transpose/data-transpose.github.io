@@ -83,35 +83,14 @@ a:hover { color: var(--ink); }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: .85rem;
   color: var(--ink);
-  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
-  font-size: .86rem;
-  font-weight: 750;
-  letter-spacing: -.02em;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
-.brand-mark {
-  position: relative;
-  display: grid;
-  width: 2.4rem;
-  aspect-ratio: 1;
-  place-items: center;
-  border: 1px solid var(--ink);
-  background: var(--ink);
-  color: var(--signal);
-  font-size: .78rem;
-  letter-spacing: .04em;
-}
-
-.brand-mark::after {
-  content: "";
-  position: absolute;
-  inset: .42rem -.42rem -.42rem .42rem;
-  border: 1px solid var(--accent);
-  z-index: -1;
+.brand-logo {
+  display: block;
+  width: clamp(10.5rem, 17vw, 12.5rem);
+  height: auto;
 }
 
 .nav-links {
@@ -849,6 +828,31 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 .container > ul li { padding: .75rem 0 .75rem 2.5rem; border-top: 1px solid var(--line); counter-increment: list; }
 .container > ul li::before { content: counter(list, decimal-leading-zero); float: left; margin-left: -2.5rem; color: var(--accent-dark); font: 800 .7rem/2.5 ui-monospace, "SFMono-Regular", Consolas, monospace; }
 
+.about-brand {
+  display: grid;
+  grid-template-columns: minmax(12rem, 20rem) minmax(0, 1fr);
+  gap: clamp(1.25rem, 4vw, 3rem);
+  align-items: center;
+  margin: 2.5rem 0 4rem;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .82);
+}
+
+.about-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.about-brand figcaption {
+  color: var(--accent-dark);
+  font: 800 clamp(.75rem, 1.5vw, .9rem)/1.65 ui-monospace, "SFMono-Regular", Consolas, monospace;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
 .site-footer { border-top: 1px solid var(--ink); }
 
 .footer-inner {
@@ -881,6 +885,8 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   .news-conference-logo { grid-column: 1; grid-row: auto; width: min(12rem, 60%); max-height: 4.5rem; margin-block: .15rem .35rem; }
   .publication-icon { position: static; margin-bottom: .25rem; }
   .publication .meta:first-of-type { padding-left: 0; }
+  .about-brand { grid-template-columns: 1fr; text-align: center; }
+  .about-brand img { width: min(100%, 20rem); margin-inline: auto; }
 }
 
 @media (max-width: 480px) {

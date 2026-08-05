@@ -8,6 +8,11 @@ permalink: /about/
 
 The Data Transpose (DT) Lab at Adelaide University conducts AI, big data, and cloud-computing research aimed at transforming industries through advanced technology. Lab members are affiliated with the Australian Institute for Machine Learning, and current work includes collaborations in health and medical data.
 
+<figure class="about-brand">
+  <img src="{{ '/assets/images/branding/dt_lab.png' | relative_url }}" alt="DT Lab network emblem" width="418" height="224">
+  <figcaption>Trustworthy AI · Data systems · Cloud computing</figcaption>
+</figure>
+
 ## Research directions
 
 - Model calibration and uncertainty estimation.
