@@ -66,6 +66,7 @@ title: Home
   <p class="news-position" data-news-position aria-live="polite"></p>
 </section>
 
+{% if site.visitor_map_enabled %}
 <section class="visitor-section" aria-labelledby="visitor-map-title">
   <div class="visitor-heading">
     <div>
@@ -77,6 +78,7 @@ title: Home
   <div class="visitor-map" data-visitor-map role="img" aria-label="World map showing aggregated visitor locations and visit counts"></div>
   <p class="visitor-status" data-visitor-status aria-live="polite">Loading aggregated visitor locations…</p>
 </section>
+{% endif %}
 
 <script>
   (() => {
