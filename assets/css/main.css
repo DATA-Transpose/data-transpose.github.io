@@ -229,11 +229,20 @@ p, li { max-width: 72ch; text-wrap: pretty; }
 .hero h1 {
   max-width: 850px;
   margin: 0 0 1.5rem;
+  color: #145ed8;
+  background: linear-gradient(115deg, #1255d6 0%, #00addf 38%, #6554e8 70%, #b14ed0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: clamp(3.6rem, 9vw, 8.5rem);
   font-weight: 560;
   letter-spacing: -.075em;
   line-height: .86;
   text-wrap: balance;
+}
+
+@media (forced-colors: active) {
+  .hero h1 { background: none; color: CanvasText; -webkit-text-fill-color: currentColor; }
 }
 
 .hero p {
