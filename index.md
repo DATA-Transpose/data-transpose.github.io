@@ -15,7 +15,7 @@ title: Home
     <a class="button" href="{{ '/people/' | relative_url }}">Meet the team</a>
   </div>
   <figure class="hero-visual">
-    <img src="{{ '/assets/images/branding/dt_main-transparent.png' | relative_url }}" alt="Data Transpose Lab visual connecting large language models and computer vision" width="904" height="1740">
+    <img src="{{ '/assets/images/branding/dt_main.png' | relative_url }}" alt="Data Transpose Lab visual connecting large language models and computer vision" width="1024" height="1536">
   </figure>
 </section>
 

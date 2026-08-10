@@ -877,7 +877,7 @@ p, li { max-width: 72ch; text-wrap: pretty; }
   .people-grid-faculty .person-media,
   .people-grid-phd_students .person-media { min-height: 0; aspect-ratio: 1; border-right: 0; border-bottom: 1px solid var(--line); }
   .hero { min-height: 620px; grid-template-columns: 1fr; }
-  .hero .hero-visual { grid-column: 1; grid-row: auto; width: min(100%, 22rem); aspect-ratio: 904 / 1739; justify-self: center; -webkit-mask-image: none; mask-image: none; }
+  .hero .hero-visual { grid-column: 1; grid-row: auto; width: min(100%, 22rem); aspect-ratio: 2 / 3; justify-self: center; -webkit-mask-image: none; mask-image: none; }
   .hero-visual img { object-fit: contain; }
   .publication, .news-item { grid-template-columns: 1fr; gap: .65rem; }
   .publication h2, .news-item h2, .publication > p, .news-item > p, .publication .link-list, .news-item > a, .publication .meta:first-of-type, .news-item .news-date { grid-column: 1; grid-row: auto; }
