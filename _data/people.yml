@@ -114,7 +114,7 @@ phd_students:
     role: "PhD Candidate"
     image: "/assets/images/people/huanwei-xu.jpeg"
     affiliation: "Adelaide University"
-    interests: "Information retrieval, weak supervision, and latent variable analysis."
+    interests: "Information Retrieval; Weak Supervision and Latent Variable Analysis"
     bio: "His research studies how to improve retrieval performance in unsupervised settings and provides diagnosis and guidance for dynamic information-retrieval environments."
     location: "Adelaide University"
     links:
@@ -165,7 +165,7 @@ phd_students:
     role: "PhD Candidate"
     image: "/assets/images/people/xiaoyang-li.jpeg"
     affiliation: "Adelaide University"
-    interests: "Data mining, multimodal time-series analysis, probabilistic forecasting, and diffusion-based generative modelling."
+    interests: "Data mining, multimodal time-series analysis, probabilistic forecasting, and diffusion-based generative modeling."
     location: "Adelaide University"
     links:
       email: "mailto:xiaoyang.li01@adelaide.edu.au"
